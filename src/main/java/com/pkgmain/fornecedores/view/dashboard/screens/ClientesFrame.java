@@ -447,7 +447,7 @@ public class ClientesFrame extends javax.swing.JFrame {
 
             
             int confirm = JOptionPane.showOptionDialog(this, 
-                "Deseja excluir o produto selecionado?", 
+                "Deseja excluir o cliente selecionado?", 
                 "Atenção", 
                 JOptionPane.YES_NO_CANCEL_OPTION, 
                 JOptionPane.QUESTION_MESSAGE,
@@ -475,7 +475,7 @@ public class ClientesFrame extends javax.swing.JFrame {
             int row = tabelaClientes.getSelectedRow();
 
             if (row == -1) {
-                JOptionPane.showMessageDialog(this, "Selecione um produto para atualizar!","Atenção",JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Selecione um cliente para atualizar!","Atenção",JOptionPane.WARNING_MESSAGE);
                 return;
             }
 
